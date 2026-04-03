@@ -1,0 +1,24 @@
+.weather-card {
+  background: linear-gradient(135deg, hsl(6, 75%, 69%), hwb(258 62% 10%));
+  border-radius: 15px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 10px #00000026;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.weather-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px #00000000;
+}
+
+.card-title {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.card-value {
+  font-size: 28px;
+  font-weight: bold;
+}
